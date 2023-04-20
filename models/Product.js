@@ -39,7 +39,7 @@ Product.init(
         key: 'id'
       }
     }
-  
+
   },
   {
     sequelize,

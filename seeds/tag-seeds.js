@@ -1,5 +1,7 @@
+// Import required module
 const { Tag } = require('../models');
 
+// Define tag data
 const tagData = [
   {
     tag_name: 'rock music',
@@ -27,6 +29,8 @@ const tagData = [
   },
 ];
 
+// Define function to seed the database with tag data
 const seedTags = () => Tag.bulkCreate(tagData);
 
+// Export seedTags function
 module.exports = seedTags;
